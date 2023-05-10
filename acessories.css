@@ -131,3 +131,38 @@
 footer, p{
    color: grey;
 }
+
+.fade-in {
+  opacity: 0;
+  animation: fade-in 1s ease-in-out forwards;
+}
+
+@keyframes fade-in {
+  from {
+      opacity: 0;
+      transform: translateY(20px);
+  }
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .nav-bar .logo{
+    font-size: 20px;
+ }
+
+ .nav-bar ul{
+    display: block;
+    gap: 5px;
+ }
+
+ .catalog{
+  display: block;
+ }
+
+ .dress-item{
+  margin-bottom: 100px;
+ }
+}

@@ -148,3 +148,22 @@ footer, p{
        transform: translateY(0);
    }
  }
+
+ @media only screen and (max-width: 768px) {
+  .nav-bar .logo{
+    font-size: 20px;
+ }
+
+ .nav-bar ul{
+    display: block;
+    gap: 5px;
+ }
+
+ .catalog{
+  display: block;
+ }
+
+ .shoes-item{
+  margin-bottom: 100px;
+ }
+}
